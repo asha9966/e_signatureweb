@@ -1,0 +1,14 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/e_signature
+    username: root
+    password: root
